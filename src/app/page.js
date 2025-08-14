@@ -20,9 +20,14 @@ const HomePage = async() => {
   const userName = session.user.name || "Guest";
   return (
     <div>
+
+            <Head>
+            <meta name="google-site-verification" content="nGew1Jmg4Z9p78jCp0CcNI4VM0OpuEyrWc7aeEykKeY" />
+                  </Head>
       {session.role === 'user' &&  (
         <>
         <UserNavigation userName = {userName}/>
+        <img src='banner.jpg' alt='banner' className='bannerImage'/>
         <ProductCollection />
         </>
       ) }
