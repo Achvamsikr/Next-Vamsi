@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Vamsi Next",
-  description: "Vamsi Next.js Project",
+  title: "Vamsi resort booking site",
+  description: "Vamsi Next.js Project resort booking site",
 };
 
 export default function RootLayout({ children }) {
