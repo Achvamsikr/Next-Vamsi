@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Vamsi resort booking site",
-  name: "More than just your place to stay – Booking.com offers all types of accommodation. From take off to landing and everything in between - book your whole trip with us. Hotels. Hostels.",
+  name: "nGew1Jmg4Z9p78jCp0CcNI4VM0OpuEyrWc7aeEykKeY",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <meta name="google-site-verification" content="More than just your place to stay – Booking.com offers all types of accommodation. From take off to landing and everything in between - book your whole trip with us. Hotels. Hostels." />
+      <meta name="google-site-verification" content="nGew1Jmg4Z9p78jCp0CcNI4VM0OpuEyrWc7aeEykKeY" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
