@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Vamsi resort booking site",
   description: "Vamsi Next.js Project resort booking site",
+  name:"google-site-verification", content:"nGew1Jmg4Z9p78jCp0CcNI4VM0OpuEyrWc7aeEykKeY" 
 };
 
 export default function RootLayout({ children }) {
