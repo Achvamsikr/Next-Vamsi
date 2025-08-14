@@ -7,6 +7,7 @@ import { redirect } from 'next/navigation'
 import UserNavigation from './components/UserNavigation'
 import AdminPage from './admin/page'
 import ProductCollection from './components/productCollections'
+import Head from 'next/head'
 
 const HomePage = async() => {
 
