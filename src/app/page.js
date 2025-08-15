@@ -22,7 +22,7 @@ const HomePage = async() => {
     <div>
       {session.role === 'user' &&  (
         <>
-        <UserNavigation userName = {userName}/>
+        <UserNavigation userName = {userName?userName:"Achvamsikr"}/>
         <img src='banner.jpg' alt='banner' className='bannerImage'/>
         <ProductCollection />
         </>

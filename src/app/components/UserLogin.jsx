@@ -23,19 +23,20 @@ const UserLogin = () => {
         e.preventDefault()
         setLoading(true)
         const loginDetails = {email, password}
+        router.push("/")
 
-        try {
-          const response = await loginAction(loginDetails)
-          if(response.success){
-                router.push("/")
-          }else{
-            setError(response.message || "login failed, Invalid Credentials");
-          }
-        } catch (error) {
-            setError("Invalid Credentials")
-        }finally{
-          setLoading(false)
-        }
+        // try {
+        //   const response = await loginAction(loginDetails)
+        //   if(response.success){
+        //         router.push("/")
+        //   }else{
+        //     setError(response.message || "login failed, Invalid Credentials");
+        //   }
+        // } catch (error) {
+        //     setError("Invalid Credentials")
+        // }finally{
+        //   setLoading(false)
+        // }
     }
 
 
