@@ -8,7 +8,7 @@ const UserNavigation = ({userName}) => {
     <div className='navSection'>
     <div className="title">
       <Link href="/" className="link">
-        <h2>Holiday Resort</h2>
+        <h2>Nellore Holiday Resort</h2>
       </Link>
     </div>
    

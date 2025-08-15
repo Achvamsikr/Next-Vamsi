@@ -14,12 +14,13 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Vamsi resort booking site",
   name: "nGew1Jmg4Z9p78jCp0CcNI4VM0OpuEyrWc7aeEykKeY",
+  description:"Nellore district,Andra Pradesh(state),India mobile:9879*****2 See traveler reviews, candid photos, and great deals for Hotel Vamsi Residency, ranked"
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <meta name="google-site-verification" content="nGew1Jmg4Z9p78jCp0CcNI4VM0OpuEyrWc7aeEykKeY" />
+      <meta name="New booking site in nellore" content="Nellore district,Andra Pradesh(state),India mobile:9879*****2 See traveler reviews, candid photos, and great deals for Hotel Vamsi Residency, ranked " />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
