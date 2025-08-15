@@ -24,7 +24,7 @@ const DynamicProduct = () => {
 
     const dynamicProductHandler = async()=>{
         
-        const response = await fetch(`https://next-vamsi.vercel.app/api/admin/product/${id}`)
+        const response = await fetch(`https://vamsi-hotelbooking-nellore.vercel.app/api/admin/product/${id}`)
         console.log("dynamic response:", response)
         const newData = await response.json()
 

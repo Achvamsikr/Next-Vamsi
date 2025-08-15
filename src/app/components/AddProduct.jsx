@@ -23,7 +23,7 @@ const AddProduct = () => {
         data.append('image', image);
 
         try {
-            const response = await fetch(`https://next-vamsi.vercel.app/api/admin/add-product`, {
+            const response = await fetch(`https://vamsi-hotelbooking-nellore.vercel.app/admin/add-product`, {
                 method: 'POST',
                 body: data
             });

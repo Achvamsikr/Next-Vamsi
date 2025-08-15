@@ -1,6 +1,6 @@
 // next-sitemap.config.js
 module.exports = {
-    siteUrl: 'https://next-vamsi.vercel.app',
+    siteUrl: 'https://vamsi-hotelbooking-nellore.vercel.app/',
     generateRobotsTxt: true,
     exclude: [], // add routes to exclude if needed
     robotsTxtOptions: {

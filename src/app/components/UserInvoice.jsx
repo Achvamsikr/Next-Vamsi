@@ -12,7 +12,7 @@ const UserInvoice = ({ userId }) => {
 
   const invoiceHandler = async () => {
     try {
-      const response = await fetch(`https://vamsi-hotelbooking-nellore.vercel.app/api/users/${"689c679b24001520608c569d"}`);
+      const response = await fetch(`https://vamsi-hotelbooking-nellore.vercel.app/api/users/${userId}`);
       const newData = await response.json();
       console.log("newData:", newData);
 

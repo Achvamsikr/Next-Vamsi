@@ -12,7 +12,7 @@ const ProductCollection = () => {
   const collectionHandler = async () => {
     setLoading(true);
     try {
-      const response = await fetch(`https://next-vamsi.vercel.app/api/admin/add-product`)
+      const response = await fetch(`https://vamsi-hotelbooking-nellore.vercel.app/api/admin/add-product`)
       const newData = await response.json();
 
       console.log("productData:", newData);
