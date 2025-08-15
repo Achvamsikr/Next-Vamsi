@@ -10,13 +10,13 @@ export async function middleware(request){
 
     const token = await getToken({req:request, secret:process.env.SECRET_KEY})
 
-    if(token && isAllowedPath){
+    // if(token && isAllowedPath){
         return NextResponse.redirect(new URL('/', request.url))
-    }
-    if(!token && !isAllowedPath){
-        return NextResponse.redirect(new URL('/login', request.url))
-    }
-    return NextResponse.next()
+    // }
+    // if(!token && !isAllowedPath){
+    //     return NextResponse.redirect(new URL('/login', request.url))
+    // }
+    // return NextResponse.next()
 
 }
 
