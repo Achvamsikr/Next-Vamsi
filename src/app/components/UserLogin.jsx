@@ -25,7 +25,7 @@ const UserLogin = () => {
         const loginDetails = {email, password}
         try {
           const response = await loginAction(loginDetails)
-          if(true){
+          if(response.success){
                 router.push("/")
           }else{
             setError(response.message || "login failed, Invalid Credentials");
