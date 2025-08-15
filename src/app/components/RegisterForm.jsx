@@ -6,7 +6,7 @@ import React, { useState } from 'react'
 import { registerAction } from '../serverActions/registerActions';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-// import Image from 'next/image';
+import Image from 'next/image';
 // import { Circles } from 'react-loader-spinner'
 
 const RegisterForm = () => {
@@ -43,14 +43,14 @@ const RegisterForm = () => {
 
   return (
    <div >
-    {/* <Image
+    <Image
         src="/background.jpg"
         alt="Background"
         layout="fill"
         objectFit="cover"
         quality={75} 
         priority 
-    /> */}
+    />
      <div className='formContainer'>
       {
         loading? (

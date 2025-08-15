@@ -10,26 +10,26 @@ import ProductCollection from './components/productCollections'
 
 const HomePage = async() => {
 
-  // const session = await auth()
+  const session = await auth()
 
   await DBConnection()
  
-  // if(!session){
-  //   redirect("/")
-  // }
-  // const userName = session.user.name || "Guest";
+  if(!session){
+    redirect("/login")
+  }
+  const userName = session.user.name || "Guest";
   return (
     <div>
-      {/* {session.role === 'user' &&  ( */}
+      {session.role === 'user' &&  (
         <>
-        <UserNavigation userName = {"AchvamsiKr"}/>
+        <UserNavigation userName = {userName}/>
         <img src='banner.jpg' alt='banner' className='bannerImage'/>
         <ProductCollection />
         </>
-      {/* ) } */}
-      {/* {session.role === 'admin' &&
+      ) }
+      {session.role === 'admin' &&
         <AdminPage /> 
-    } */}
+    }
     </div>
   )
 }

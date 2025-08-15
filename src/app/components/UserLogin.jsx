@@ -6,8 +6,8 @@ import React, { useState } from 'react'
 import { loginAction } from '../serverActions/loginAction';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-// import bgImage from '../../../public/background.jpg'
-// import Image from 'next/image';
+import bgImage from '../../../public/background.jpg'
+import Image from 'next/image';
 // import { Circles } from 'react-loader-spinner'
 
 
@@ -41,14 +41,14 @@ const UserLogin = () => {
 
   return (
 <div >
-{/* <Image
+<Image
         src="/background.jpg"
         alt="Background"
         layout="fill"
         objectFit="cover"
         quality={75} 
         priority 
-    /> */}
+    />
 <div className='formContainer'>
 {
   loading ? (
